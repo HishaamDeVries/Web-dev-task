@@ -1,0 +1,780 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Users</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="Asserts/css/card.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <!--This is the Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light nav-color">
+      <a class="navbar-brand">Profiles</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item disable">
+            <a class="nav-link disabled">Home</font></a>
+          </li>
+          <li class="nav-item disable">
+            <a class="nav-link disable">News Feed</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="User_profile.html"
+              >Users <span class="sr-only">(current)</span></a
+            >
+          </li>
+          <li class="nav-item disable">
+            <a class="nav-link disable">Admin</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!--End of NavBar -->
+    <h1 class="text-center text-background">User Profiles</h1>
+    <br />
+    <h2 class="text-left text-background">
+      To Access The Futher Infomation Of A User Click On Their Profile Picture
+    </h2>
+    <br />
+    <!--Start of Profile Cards-->
+    <div class="container-fluid">
+      <!--Start of Profile Cards-->
+      <!--First row of Profile Cards-->
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <img
+              class="image"
+              src="Asserts/images/Joshua Stratford.jpg"
+              alt="Joshua Stratford's Picture"
+              style="width:100%"
+              data-toggle="modal"
+              data-target="#Joshua"
+            />
+            <div class="middle" data-toggle="modal"
+            data-target="#Joshua">
+              <div class="text">CLICK FOR FURTHER INFO</div>
+            </div>
+            <h2>Joshua Stratford</h2>
+            <p class="colour">Email Address</p>
+            <p>JoshuaStratford@gmail.com</p>
+            <p class="colour">Cell and Home Phone</p>
+            <p>Cel: 061 021 0808</p>
+            <p>Tel: 074 595 8067</p>
+            <button
+              type="button"
+              class="btn"
+              data-toggle="modal"
+              data-target="#delete1"
+            >
+              Delete
+            </button>
+          </div>
+        </div>
+
+        <!--This modal links to the image of the Profile above each card has a similar one below it-->
+        <div class="modal fade" id="Joshua">
+          <div class="modal-dialog modal-dialog-scollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title">Futher Details of Joshua Stratford</h1>
+              </div>
+
+              <div class="modal-body">
+                <h2 class="title">Home Address</h2>
+                <p>7 Ponzar Road</p>
+                <p>Pinelands</p>
+                <p>Cape Town</p>
+                <p>7789</p>
+                <h2 class="title">User's Next Of Kin</h2>
+                <p>Jenna Stratford</p>
+                <h2 class="title">Next of Kin's Relation to User</h2>
+                <p>Sister</p>
+                <h2 class="title">Next of Kin's Cellphone & Email Address</h2>
+                <p>Cel: 021 081 5929</p>
+                <p>Email: JennaStratford@gmail.com</p>
+              </div>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              class="image"
+              src="Asserts/images/Nikita Visser.jpg"
+              alt="Nikita Visser's Picture"
+              style="width:100%"
+              data-toggle="modal"
+              data-target="#Nikita"
+            />
+            <div class="middle" data-toggle="modal"
+            data-target="#Nikita">
+              <div class="text">CLICK FOR FURTHER INFO</div>
+            </div>
+            <h2>Nikita Visser</h2>
+            <p class="colour">Email Address</p>
+            <p>Nikitavisser@gamil.com</p>
+            <p class="colour">Cell and Home Phone</p>
+            <p>Cel: 083 051 7808</p>
+            <p>Tel: 074 959 7247</p>
+            <button
+              type="button"
+              class="btn"
+              data-toggle="modal"
+              data-target="#delete1"
+            >
+              Delete
+            </button>
+          </div>
+        </div>
+
+        <div class="modal fade" id="Nikita">
+          <div class="modal-dialog modal-dialog-scollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title">Futher Details of Nikita Visser</h1>
+              </div>
+
+              <div class="modal-body">
+                <h2 class="title">Home Address</h2>
+                <p>18 Good street</p>
+                <p>Goodwood</p>
+                <p>Cape Town</p>
+                <p>7767</p>
+                <h2 class="title">User's Next Of Kin</h2>
+                <p>Lena Visser</p>
+                <h2 class="title">Next of Kin's Relation to User</h2>
+                <p>Mother</p>
+                <h2 class="title">Next of Kin's Cellphone & Email Address</h2>
+                <p>Cel: 082 541 0879</p>
+                <p>Email: LenaVisser@gmail.com</p>
+              </div>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              class="image"
+              src="Asserts/images/Thomas Barry.jpg"
+              alt="Thomas Barry's Picture"
+              style="width:100%"
+              data-toggle="modal"
+              data-target="#Thomas"
+            />
+            <div class="middle" data-toggle="modal"
+            data-target="#Thomas">
+              <div class="text">CLICK FOR FURTHER INFO</div>
+            </div>
+            <h2>Thomas Barry</h2>
+            <p class="colour">Email Address</p>
+            <p>Thomasbarry@gmail.com</p>
+            <p class="colour">Cell and Home Phone</p>
+            <p>Cel: 084 721 9808</p>
+            <p>Tel: 074 995 8823</p>
+            <button
+              type="button"
+              class="btn"
+              data-toggle="modal"
+              data-target="#delete1"
+            >
+              Delete
+            </button>
+          </div>
+        </div>
+
+        <div class="modal fade" id="Thomas">
+          <div class="modal-dialog modal-dialog-scollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title">Futher Details of Thomas Barry</h1>
+              </div>
+
+              <div class="modal-body">
+                <h2 class="title">Home Address</h2>
+                <p>2 Millner Road</p>
+                <p>Rondebosh</p>
+                <p>Cape Town</p>
+                <p>7799</p>
+                <h2 class="title">User's Next Of Kin</h2>
+                <p>John Barry</p>
+                <h2 class="title">Next of Kin's Relation to User</h2>
+                <p>Brother</p>
+                <h2 class="title">Next of Kin's Cellphone & Email Address</h2>
+                <p>Cel: 021 529 7849</p>
+                <p>Email: JohnBarry@gmail.com</p>
+              </div>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End of the first row of Profile Cards-->
+
+      <br />
+      <!--Start of the second row of Profile Cards-->
+      <div class="row">
+        <div class="col">
+          <div class="card">
+            <img
+              class="image"
+              src="Asserts/images/Chadwin Smith.jpg"
+              alt="Chadwin Smith's Picture"
+              style="width:100%"
+              data-toggle="modal"
+              data-target="#Chadwin"
+            />
+            <div class="middle" data-toggle="modal"
+            data-target="#Chadwin">
+              <div class="text">CLICK FOR FURTHER INFO</div>
+            </div>
+            <h2>Chadwin Smith</h2>
+            <p class="colour">Email Address</p>
+            <p>ChadwinSmith@gmail.com</p>
+            <p class="colour">Cell and Home Phone</p>
+            <p>Cel: 081 421 6808</p>
+            <p>Tel: 074 134 8517</p>
+            <button
+              type="button"
+              class="btn"
+              data-toggle="modal"
+              data-target="#delete1"
+            >
+              Delete
+            </button>
+          </div>
+        </div>
+
+        <div class="modal fade" id="Chadwin">
+          <div class="modal-dialog modal-dialog-scollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title">Futher Details of Chadwin Smith</h1>
+              </div>
+
+              <div class="modal-body">
+                <h2 class="title">Home Address</h2>
+                <p>21 Belgravia Road</p>
+                <p>Athlone</p>
+                <p>Cape Town</p>
+                <p>7764</p>
+                <h2 class="title">User's Next Of Kin</h2>
+                <p>Sarah Smith</p>
+                <h2 class="title">Next of Kin's Relation to User</h2>
+                <p>Sister</p>
+                <h2 class="title">Next of Kin's Cellphone & Email Address</h2>
+                <p>Cel: 074 921 5028</p>
+                <p>Email: Sarah Smith@gmail.com</p>
+              </div>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              class="image"
+              src="Asserts/images/Reece Overmayor.jpg"
+              alt="Reece Overmayor's Picture"
+              style="width:100%"
+              data-toggle="modal"
+              data-target="#Reece"
+            />
+            <div class="middle" data-toggle="modal"
+            data-target="#Reece">
+              <div class="text">CLICK FOR FURTHER INFO</div>
+            </div>
+            <h2>Reece Overmayor</h2>
+            <p class="colour">Email Address</p>
+            <p>ReeceOvermayor@gmail.com</p>
+            <p class="colour">Cell and Home Phone</p>
+            <p>Cel: 071 721 5863</p>
+            <p>Tel: 074 291 2498</p>
+            <button
+              type="button"
+              class="btn"
+              data-toggle="modal"
+              data-target="#delete1"
+            >
+              Delete
+            </button>
+          </div>
+        </div>
+
+        <div class="modal fade" id="Reece">
+          <div class="modal-dialog modal-dialog-scollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title">Futher Details of Reece Overmayor</h1>
+              </div>
+
+              <div class="modal-body">
+                <h2 class="title">Home Address</h2>
+                <p>25 Ponzar Road</p>
+                <p>Pinelands</p>
+                <p>Cape Town</p>
+                <p>7789</p>
+                <h2 class="title">User's Next Of Kin</h2>
+                <p>Mary Overmayor</p>
+                <h2 class="title">Next of Kin's Relation to User</h2>
+                <p>Sister</p>
+                <h2 class="title">Next of Kin's Cellphone & Email Address</h2>
+                <p>Cel: 021 081 5929</p>
+                <p>Email: MaryOvermayor@gmail.com</p>
+              </div>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="card">
+            <img
+              class="image"
+              src="Asserts/images/Jake Farmer.jpg"
+              alt="Jake Farmer's Picture"
+              style="width:100%"
+              data-toggle="modal"
+              data-target="#Jake"
+            />
+            <div class="middle" data-toggle="modal"
+            data-target="#Jake">
+              <div class="text">CLICK FOR FURTHER INFO</div>
+            </div>
+            <h2>Jake Farmer</h2>
+            <p class="colour">Email Address</p>
+            <p>JakeFarmer@gmail.com</p>
+            <p class="colour">Cell and Home Phone</p>
+            <p>Cel: 081 031 9308</p>
+            <p>Tel: 074 692 0767</p>
+            <button
+              type="button"
+              class="btn"
+              data-toggle="modal"
+              data-target="#delete1"
+            >
+              Delete
+            </button>
+          </div>
+        </div>
+
+        <div class="modal fade" id="Jake">
+          <div class="modal-dialog modal-dialog-scollable">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title">Futher Details of Jake Farmer</h1>
+              </div>
+
+              <div class="modal-body">
+                <h2 class="title">Home Address</h2>
+                <p>17 Marydale Road</p>
+                <p>Mobray</p>
+                <p>Cape Town</p>
+                <p>7787</p>
+                <h2 class="title">User's Next Of Kin</h2>
+                <p>Katelin Farmer</p>
+                <h2 class="title">Next of Kin's Relation to User</h2>
+                <p>Sister</p>
+                <h2 class="title">Next of Kin's Cellphone & Email Address</h2>
+                <p>Cel: 071 084 9236</p>
+                <p>Email:KateFarmer@gmail.com</p>
+              </div>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End of Second row of Profile Cards-->
+      <!--End of Profile Cards-->
+      <br />
+      <!--Button for the form module-->
+      <button
+        type="button"
+        class="btn"
+        data-toggle="modal"
+        data-target="#form"
+      >
+        To Create a User Profile Click Here
+      </button>
+
+      <!--This modal is linked to the button above and it pops up the Profile Form to create a New Profile-->
+      <div class="modal fade" id="form">
+        <div class="modal-dialog modal-dialog-scollable">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h1 class="modal-title">Create User Profile</h1>
+            </div>
+
+            <div class="modal-body text-primary">
+              <form class="was-validated" method="Post">
+                <h2>Fullname</h2>
+                <div class="form-group">
+                  <label for="fname">Firstname:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="fname"
+                    placeholder="Enter Firstname"
+                    name="fname"
+                    required
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="lname">Lastname:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="lname"
+                    placeholder="Enter Lastname"
+                    name="lname"
+                    required
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                </div>
+
+                <h2>Contect Details</h2>
+                <div class="form-group">
+                  <label for="email">Email:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="email"
+                    placeholder="Enter Email Address"
+                    name="email"
+                    required
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="cell">Cell Number:</label>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="cell"
+                    placeholder="Enter Cell Number"
+                    name="cell"
+                    required
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="home">Home Number:</label>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="home"
+                    placeholder="Enter Home Number"
+                    name="home"
+                    required
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                </div>
+
+                <h2>Home Address</h2>
+                <div class="form-group">
+                  <label for="street">Street Address:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="street"
+                    placeholder="Enter Street Address"
+                    name="street"
+                    required
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="Area">Area:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="area"
+                    placeholder="Enter Area"
+                    name="area"
+                    required
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="city">City:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="cityl"
+                    placeholder="Enter City"
+                    name="city"
+                    required
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                </div>
+
+                <!--The type is a number here cause the area code is made upe of numbers-->
+                <div class="form-group">
+                  <label for="acode">Area Code:</label>
+                  <input
+                    type="number"
+                    class="form-control"
+                    id="acode"
+                    placeholder="Enter Area Code"
+                    name="acode"
+                    required
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                </div>
+
+                <h2>Next of Kin's Details</h2>
+                <div class="form-group">
+                  <label for="nok">Next of Kin:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="nok"
+                    placeholder="Enter Next of Kin's Name:"
+                    name="nok"
+                    required
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="rnok">Next of Kin's Relation to User:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="rnok"
+                    placeholder="Enter Next of Kin's Relation to User"
+                    name="rnok"
+                    required
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="cnok">Next of Kin's Cell Number:</label>
+                  <input
+                    type="tel"
+                    class="form-control"
+                    id="cnok"
+                    placeholder="Enter Next of Kin's Cell Number"
+                    name="cnok"
+                    required
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="enok">Next of Kin's Email Address:</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    id="enok"
+                    placeholder="Enter Next of Kin's Email Address"
+                    name="enok"
+                    required
+                  />
+                  <div class="valid-feedback">Valid.</div>
+                  <div class="invalid-feedback">
+                    Please fill out this field.
+                  </div>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+            </div>
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">
+                Close
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End of Model for Form-->
+
+
+      <!--This is the modal that links to the Delete Buttons on the User Profile cards-->
+      <div class="modal fade" id="delete1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header text-danger">
+              <h2 class="modal-title">
+                Do You want to Delete this User Profile?
+              </h2>
+            </div>
+
+            <div class="modal-body text-primary">
+              <p>
+                <button
+                  type="button"
+                  class="btn"
+                  date-dimiss="modal"
+                  data-toggle="modal"
+                  data-target="#gone1"
+                >
+                  Yes
+                </button>
+
+                <!--This modal links to the yes button above which is in the Delete modal. It gives the Notification that the Profile Has been deleted-->
+                <div class="modal fade" id="gone1">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header text-danger">
+                        <h1 class="modal-title">User Profile Has Been Deleted</h1>
+                      </div>
+
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-danger" data-dismiss="modal">
+                          Close
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+<!--If you press the yes button confirmation of delete will show up and if you press the no button it will leave the modal-->
+                
+                <button
+                  type="button"
+                  class="btn btn-primary"
+                  data-dismiss="modal"
+                >
+                  No
+                </button>
+              </p>
+
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-danger"
+                  data-dismiss="modal"
+                >
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--End of Model for Delete Button-->
+     
+    </div>
+  </body>
+</html>
